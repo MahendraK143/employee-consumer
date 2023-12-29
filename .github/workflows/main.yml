@@ -1,0 +1,11 @@
+name: Employee-Consumer
+
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: echo "I love you"
+      - name: print second
+        run: echo "can you marry me?"
